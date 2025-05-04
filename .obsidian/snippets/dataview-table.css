@@ -1,0 +1,15 @@
+.dataview.table-view-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dataview.table-view-table th,
+.dataview.table-view-table td {
+  border: 2px solid var(--background-modifier-border);
+  padding: 8px 12px;
+}
+
+.dataview.table-view-table th {
+  background-color: var(--background-secondary);
+  font-weight: bold;
+}

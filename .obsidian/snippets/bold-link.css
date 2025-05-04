@@ -1,0 +1,14 @@
+/* For internal links in the editing mode */
+.cm-s-obsidian .cm-hmd-internal-link,
+.cm-s-obsidian span.cm-hmd-internal-link {
+  font-weight: bold !important;
+}
+
+/* For internal links in the reading (preview) mode */
+.markdown-preview-view .internal-link {
+  font-weight: bold !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline {
+  font-weight: 600 !important;
+}

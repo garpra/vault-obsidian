@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Tokyo Night",
+  "enabledCssSnippets": [
+    "bold-link",
+    "dataview-table",
+    "horizontal-rule",
+    "inline-code",
+    "no-icon-link",
+    "folder-gradient"
+  ]
+}

@@ -1,0 +1,20 @@
+.nav-folder-title {
+  font-weight: 600;
+  background: linear-gradient(
+    90deg,
+    #f7768e,
+    /* red-pink */ #ff9e64,
+    /* orange */ #e0af68,
+    /* gold */ #9ece6a,
+    /* green */ #73daca,
+    /* cyan */ #7dcfff,
+    /* blue */ #bb9af7 /* purple */
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-folder-title svg {
+  color: #ff9e64; /* atau warna yang cocok dengan tema kamu */
+}

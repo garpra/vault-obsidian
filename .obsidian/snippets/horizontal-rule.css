@@ -1,0 +1,10 @@
+/* Untuk preview (reading mode) */
+.markdown-preview-view hr,
+.markdown-source-view hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #7aa2f7, #7dcfff, #7aa2f7);
+  border-radius: 1px;
+  margin: 2em 0;
+  opacity: 0.8;
+}
