@@ -1,4 +1,9 @@
 {
   "vimMode": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "99_Templates/"
+  ],
+  "alwaysUpdateLinks": true,
+  "tabSize": 6
 }

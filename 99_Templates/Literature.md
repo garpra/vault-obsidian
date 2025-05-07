@@ -2,10 +2,10 @@
 source: 
 author: 
 tags:
-  - literature
+  - type/literature
 ---
 
-## Judul: 
+## Judul
 
 ### Ringkasan
 Tuliskan isi ringkasan isi utama dari sumber
@@ -15,6 +15,10 @@ Tuliskan pemikiran, pertanyaan, atau hubungan ide yang muncul setelah membaca.
 
 ### Terkait dengan
 - Link Fleeting Note
-- Link Sumber
+
+### Potensi Permanent Note
+- [[permanet_note]]
 
 <% tp.file.rename("L-Title") %>
+
+<% tp.file.rename("L"+ tp.date.now("MMDDYYYYHHmm") +"-Title") %>

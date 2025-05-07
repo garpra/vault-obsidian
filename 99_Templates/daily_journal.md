@@ -14,4 +14,7 @@
 - 
 
 ### Catatan Lainnya
-[[07_Journals/Daily_Journal/<% tp.date.now("MM-DD-YYYY", -1) %> |Kemarin]] || [[07_Journals/Daily_Journal/<% tp.date.now("MM-DD-YYYY", 1) %> |Besok]]
+[[07_Daily_Journals/<% tp.date.now("MM-DD-YYYY", -1) %> |Kemarin]] || [[07_Daily_Journals/<% tp.date.now("MM-DD-YYYY", 1) %> |Besok]]
+
+##### Maps of Content
+[[Daily Journal]]

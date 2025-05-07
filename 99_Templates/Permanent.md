@@ -1,17 +1,19 @@
 ---
 created: <% tp.date.now("DD-MM-YYYY HH-mm") %>
 tags:
-  - permanent
+  - type/permanent
 ---
 
-## Judul: <% tp.file.title %>
+## <% tp.file.title %>
 
 ### Ide Pokok
 Tuliskan ide utama dengan kata-katamu sendiri.
 
-### Referensi
+### Terkait dengan
 - Link Literature
+
+### Referensi
 - Link / kutipan
 
 
-<% tp.file.rename("Z"+ tp.date.now("DDMMYYYYHHmm") +"-Title") %>
+<% tp.file.rename("Z"+ tp.date.now("MMDDYYYYHHmm") +"-Title") %>

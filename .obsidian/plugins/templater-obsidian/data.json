@@ -15,8 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "08_Quick_Notes",
-      "template": "99_Templates/QuickNote.md"
+      "folder": "01_Fleetings",
+      "template": "99_Templates/fleeting.md"
+    },
+    {
+      "folder": "02_Literatures",
+      "template": "99_Templates/literature.md"
+    },
+    {
+      "folder": "03_Permanents",
+      "template": "99_Templates/permanent.md"
+    },
+    {
+      "folder": "00_Inbox",
+      "template": "99_Templates/inbox.md"
     }
   ],
   "enable_file_templates": false,

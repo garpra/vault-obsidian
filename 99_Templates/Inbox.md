@@ -1,7 +1,7 @@
 
-## Judul: <% tp.file.title %>
+## <% tp.file.title %>
 
-**tags:** #programmingidea 
+**tags:** #type/projectidea
 
 ### Catatan
 Jelaskan secara singkat ide anda

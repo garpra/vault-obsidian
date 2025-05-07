@@ -1,11 +1,101 @@
 {
   "choices": [
     {
-      "id": "c016194e-cb8c-4c7e-87c2-afa900234635",
-      "name": "Add Quick Note",
+      "id": "9a524592-61c2-4cac-9493-c513afc4569f",
+      "name": "Add Fleeting Note",
       "type": "Template",
       "command": true,
-      "templatePath": "99_Templates/QuickNote.md",
+      "templatePath": "99_Templates/fleeting.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "file"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "01_Fleetings"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "29e00d90-6040-45a2-a99a-32e181365caa",
+      "name": "Add Literature Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/literature.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "file"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02_Literatures"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "05635c78-43fd-4ec6-b0b1-eed755fc236d",
+      "name": "Add Permanent Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/permanent.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "file"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "03_Permanents"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "1cfad54f-23f2-4af1-83c3-c694994cc880",
+      "name": "Add Inbox",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99_Templates/inbox.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +103,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "08_Quick_Notes"
+          "00_Inbox"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

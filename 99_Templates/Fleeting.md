@@ -2,8 +2,10 @@
 ### Ide
 Kemukakan ide yang anda pikirkan secara singkat
 
-### Langkah Selanjutnya
+### Tindaklanjut
 - [ ] Review dan cek apakah masih relevan
 - [ ] Ubah menjadi Literature/Permanent?
 
-<% tp.file.rename("F"+ tp.date.now("DDMMYYYYHHmmss")) %>
+Sudah diproses --> 
+
+<% tp.file.rename("F"+ tp.date.now("MMDDYYYYHHmmss")) %>
