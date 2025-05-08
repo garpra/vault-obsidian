@@ -4,19 +4,19 @@
 **tags:** #type/log #topic/programming #topic/javascript #topic/unittest
 
 ### Catatan
-Saat saya mengerjakan coing di codewars saya binggung code di **Sample Test** itu code javascript apa, dan saya cari melalui chtgpt dan saya tahu itu adalah code unit test utuk javascript, biasanya digunakan oleh codewars yaitu mocha dan chai
+Saat saya mengerjakan coding challenge di codewars saya bingung code pada bagian **Sample Test** itu code javascript apa, dan saya cari tahu melalui chtgpt, saya menemukan bahwa code itu adalah code unit test untuk javascript, unit test yang biasa digunakan oleh codewars adalah mocha dan chai
 
-saya buat ingin coba menggunakannya tetapi saya ingat mau menggunakan pnpm dibanding npm karena ukuran node_module lebih kecil, akhirnya saya menginstal pnpm dulu
-```
+Saya pun ingin mencoba menggunakannya, dan saya berpikir untuk menginstal unit testnya melalui pnpm bukan npm karena sekalian belajar pnpm, dan juga katanya pnpm ukuran node_module lebih kecil, dan saya menginstal pnpm terlebih dahulu 
+
+```bash
 npm install -g pnpm
-```
 
-dan juga setup pnpm
-```
+# Jangan lupa setup agar pnpm bisa digunakan
 pnpm setup
 ```
 
-dan saya pun masuk ke folder project saya dan melakukan
+Saya pun membuat project node dengan pnpm dengan pergi ke folder project saya dan melakukan
+
 ```bash
 pnpm init
 
@@ -24,7 +24,9 @@ pnpm init
 pnpm add --save-dev mocha chai
 ```
 
-dan unit test bisa digunakan dengan
+Akhir, unit test bisa digunakan
 ```
 pnpm mocha nama_file.js
 ```
+
+Di unit test saya belum belajar sama cara penggunaannya, Saya cuma mencoba menjalankan unit test saja, mungkin kedepannya saya coba belajar tentang unit test ini
